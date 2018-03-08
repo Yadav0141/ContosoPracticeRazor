@@ -7,6 +7,7 @@ namespace ContosoUniversity.Data
     {
         public static void Initialize(SchoolContext context)
         {
+
             if (context.Students.Any())
             {
                 return; // DB has been seeded
