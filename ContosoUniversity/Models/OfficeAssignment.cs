@@ -13,7 +13,7 @@ namespace ContosoUniversity.Models
         [StringLength(50)]
         [Display(Name = "Office Location")]
         public string Location { get; set; }
-        [Required]
+       
         public Instructor Instructor { get; set; }
     }
 }
